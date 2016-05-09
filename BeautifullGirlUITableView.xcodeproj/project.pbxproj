@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E76C06F61CE0870C00436EC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C06F51CE0870C00436EC9 /* main.m */; };
+		E76C06F91CE0870C00436EC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C06F81CE0870C00436EC9 /* AppDelegate.m */; };
+		E76C06FC1CE0870C00436EC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C06FB1CE0870C00436EC9 /* ViewController.m */; };
+		E76C06FF1CE0870C00436EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76C06FD1CE0870C00436EC9 /* Main.storyboard */; };
+		E76C07011CE0870C00436EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76C07001CE0870C00436EC9 /* Assets.xcassets */; };
+		E76C07041CE0870C00436EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76C07021CE0870C00436EC9 /* LaunchScreen.storyboard */; };
+		E76C070F1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C070E1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.m */; };
+		E76C071A1CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E76C07191CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.m */; };
+		E76C072A1CE08DA900436EC9 /* ngoctrinh.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C07271CE08DA900436EC9 /* ngoctrinh.png */; };
+		E76C072B1CE08DA900436EC9 /* rebecca.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C07281CE08DA900436EC9 /* rebecca.png */; };
+		E76C072C1CE08DA900436EC9 /* taylor.png in Resources */ = {isa = PBXBuildFile; fileRef = E76C07291CE08DA900436EC9 /* taylor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E76C070B1CE0870C00436EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76C06E91CE0870C00436EC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76C06F01CE0870C00436EC9;
+			remoteInfo = BeautifullGirlUITableView;
+		};
+		E76C07161CE0870C00436EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76C06E91CE0870C00436EC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76C06F01CE0870C00436EC9;
+			remoteInfo = BeautifullGirlUITableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E76C06F11CE0870C00436EC9 /* BeautifullGirlUITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifullGirlUITableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76C06F51CE0870C00436EC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E76C06F71CE0870C00436EC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E76C06F81CE0870C00436EC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E76C06FA1CE0870C00436EC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E76C06FB1CE0870C00436EC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E76C06FE1CE0870C00436EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E76C07001CE0870C00436EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E76C07031CE0870C00436EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E76C07051CE0870C00436EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76C070A1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifullGirlUITableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76C070E1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifullGirlUITableViewTests.m; sourceTree = "<group>"; };
+		E76C07101CE0870C00436EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76C07151CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifullGirlUITableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76C07191CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifullGirlUITableViewUITests.m; sourceTree = "<group>"; };
+		E76C071B1CE0870C00436EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76C07271CE08DA900436EC9 /* ngoctrinh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ngoctrinh.png; sourceTree = "<group>"; };
+		E76C07281CE08DA900436EC9 /* rebecca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rebecca.png; sourceTree = "<group>"; };
+		E76C07291CE08DA900436EC9 /* taylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taylor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E76C06EE1CE0870C00436EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76C07071CE0870C00436EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76C07121CE0870C00436EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E76C06E81CE0870C00436EC9 = {
+			isa = PBXGroup;
+			children = (
+				E76C06F31CE0870C00436EC9 /* BeautifullGirlUITableView */,
+				E76C070D1CE0870C00436EC9 /* BeautifullGirlUITableViewTests */,
+				E76C07181CE0870C00436EC9 /* BeautifullGirlUITableViewUITests */,
+				E76C06F21CE0870C00436EC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E76C06F21CE0870C00436EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76C06F11CE0870C00436EC9 /* BeautifullGirlUITableView.app */,
+				E76C070A1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.xctest */,
+				E76C07151CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E76C06F31CE0870C00436EC9 /* BeautifullGirlUITableView */ = {
+			isa = PBXGroup;
+			children = (
+				E76C07271CE08DA900436EC9 /* ngoctrinh.png */,
+				E76C07281CE08DA900436EC9 /* rebecca.png */,
+				E76C07291CE08DA900436EC9 /* taylor.png */,
+				E76C06F71CE0870C00436EC9 /* AppDelegate.h */,
+				E76C06F81CE0870C00436EC9 /* AppDelegate.m */,
+				E76C06FA1CE0870C00436EC9 /* ViewController.h */,
+				E76C06FB1CE0870C00436EC9 /* ViewController.m */,
+				E76C06FD1CE0870C00436EC9 /* Main.storyboard */,
+				E76C07001CE0870C00436EC9 /* Assets.xcassets */,
+				E76C07021CE0870C00436EC9 /* LaunchScreen.storyboard */,
+				E76C07051CE0870C00436EC9 /* Info.plist */,
+				E76C06F41CE0870C00436EC9 /* Supporting Files */,
+			);
+			path = BeautifullGirlUITableView;
+			sourceTree = "<group>";
+		};
+		E76C06F41CE0870C00436EC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E76C06F51CE0870C00436EC9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E76C070D1CE0870C00436EC9 /* BeautifullGirlUITableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E76C070E1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.m */,
+				E76C07101CE0870C00436EC9 /* Info.plist */,
+			);
+			path = BeautifullGirlUITableViewTests;
+			sourceTree = "<group>";
+		};
+		E76C07181CE0870C00436EC9 /* BeautifullGirlUITableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E76C07191CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.m */,
+				E76C071B1CE0870C00436EC9 /* Info.plist */,
+			);
+			path = BeautifullGirlUITableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E76C06F01CE0870C00436EC9 /* BeautifullGirlUITableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76C071E1CE0870C00436EC9 /* Build configuration list for PBXNativeTarget "BeautifullGirlUITableView" */;
+			buildPhases = (
+				E76C06ED1CE0870C00436EC9 /* Sources */,
+				E76C06EE1CE0870C00436EC9 /* Frameworks */,
+				E76C06EF1CE0870C00436EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautifullGirlUITableView;
+			productName = BeautifullGirlUITableView;
+			productReference = E76C06F11CE0870C00436EC9 /* BeautifullGirlUITableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E76C07091CE0870C00436EC9 /* BeautifullGirlUITableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76C07211CE0870C00436EC9 /* Build configuration list for PBXNativeTarget "BeautifullGirlUITableViewTests" */;
+			buildPhases = (
+				E76C07061CE0870C00436EC9 /* Sources */,
+				E76C07071CE0870C00436EC9 /* Frameworks */,
+				E76C07081CE0870C00436EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76C070C1CE0870C00436EC9 /* PBXTargetDependency */,
+			);
+			name = BeautifullGirlUITableViewTests;
+			productName = BeautifullGirlUITableViewTests;
+			productReference = E76C070A1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E76C07141CE0870C00436EC9 /* BeautifullGirlUITableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76C07241CE0870C00436EC9 /* Build configuration list for PBXNativeTarget "BeautifullGirlUITableViewUITests" */;
+			buildPhases = (
+				E76C07111CE0870C00436EC9 /* Sources */,
+				E76C07121CE0870C00436EC9 /* Frameworks */,
+				E76C07131CE0870C00436EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E76C07171CE0870C00436EC9 /* PBXTargetDependency */,
+			);
+			name = BeautifullGirlUITableViewUITests;
+			productName = BeautifullGirlUITableViewUITests;
+			productReference = E76C07151CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E76C06E91CE0870C00436EC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ngotruong;
+				TargetAttributes = {
+					E76C06F01CE0870C00436EC9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+					};
+					E76C07091CE0870C00436EC9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E76C06F01CE0870C00436EC9;
+					};
+					E76C07141CE0870C00436EC9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 78NFY6Q9C3;
+						TestTargetID = E76C06F01CE0870C00436EC9;
+					};
+				};
+			};
+			buildConfigurationList = E76C06EC1CE0870C00436EC9 /* Build configuration list for PBXProject "BeautifullGirlUITableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E76C06E81CE0870C00436EC9;
+			productRefGroup = E76C06F21CE0870C00436EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76C06F01CE0870C00436EC9 /* BeautifullGirlUITableView */,
+				E76C07091CE0870C00436EC9 /* BeautifullGirlUITableViewTests */,
+				E76C07141CE0870C00436EC9 /* BeautifullGirlUITableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E76C06EF1CE0870C00436EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76C072A1CE08DA900436EC9 /* ngoctrinh.png in Resources */,
+				E76C07041CE0870C00436EC9 /* LaunchScreen.storyboard in Resources */,
+				E76C07011CE0870C00436EC9 /* Assets.xcassets in Resources */,
+				E76C072B1CE08DA900436EC9 /* rebecca.png in Resources */,
+				E76C072C1CE08DA900436EC9 /* taylor.png in Resources */,
+				E76C06FF1CE0870C00436EC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76C07081CE0870C00436EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76C07131CE0870C00436EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E76C06ED1CE0870C00436EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76C06FC1CE0870C00436EC9 /* ViewController.m in Sources */,
+				E76C06F91CE0870C00436EC9 /* AppDelegate.m in Sources */,
+				E76C06F61CE0870C00436EC9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76C07061CE0870C00436EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76C070F1CE0870C00436EC9 /* BeautifullGirlUITableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76C07111CE0870C00436EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76C071A1CE0870C00436EC9 /* BeautifullGirlUITableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E76C070C1CE0870C00436EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76C06F01CE0870C00436EC9 /* BeautifullGirlUITableView */;
+			targetProxy = E76C070B1CE0870C00436EC9 /* PBXContainerItemProxy */;
+		};
+		E76C07171CE0870C00436EC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E76C06F01CE0870C00436EC9 /* BeautifullGirlUITableView */;
+			targetProxy = E76C07161CE0870C00436EC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E76C06FD1CE0870C00436EC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76C06FE1CE0870C00436EC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E76C07021CE0870C00436EC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E76C07031CE0870C00436EC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E76C071C1CE0870C00436EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E76C071D1CE0870C00436EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E76C071F1CE0870C00436EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautifullGirlUITableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.BeautifullGirlUITableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E76C07201CE0870C00436EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeautifullGirlUITableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.BeautifullGirlUITableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E76C07221CE0870C00436EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautifullGirlUITableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.BeautifullGirlUITableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifullGirlUITableView.app/BeautifullGirlUITableView";
+			};
+			name = Debug;
+		};
+		E76C07231CE0870C00436EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautifullGirlUITableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.BeautifullGirlUITableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifullGirlUITableView.app/BeautifullGirlUITableView";
+			};
+			name = Release;
+		};
+		E76C07251CE0870C00436EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautifullGirlUITableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.BeautifullGirlUITableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautifullGirlUITableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E76C07261CE0870C00436EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautifullGirlUITableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obj-C.Start.BeautifullGirlUITableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautifullGirlUITableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E76C06EC1CE0870C00436EC9 /* Build configuration list for PBXProject "BeautifullGirlUITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76C071C1CE0870C00436EC9 /* Debug */,
+				E76C071D1CE0870C00436EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76C071E1CE0870C00436EC9 /* Build configuration list for PBXNativeTarget "BeautifullGirlUITableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76C071F1CE0870C00436EC9 /* Debug */,
+				E76C07201CE0870C00436EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E76C07211CE0870C00436EC9 /* Build configuration list for PBXNativeTarget "BeautifullGirlUITableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76C07221CE0870C00436EC9 /* Debug */,
+				E76C07231CE0870C00436EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E76C07241CE0870C00436EC9 /* Build configuration list for PBXNativeTarget "BeautifullGirlUITableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E76C07251CE0870C00436EC9 /* Debug */,
+				E76C07261CE0870C00436EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E76C06E91CE0870C00436EC9 /* Project object */;
+}
